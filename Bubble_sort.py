@@ -6,8 +6,3 @@ def bubble_sort(arr):
                 temp = arr[i]
                 arr[i] = arr[i + 1]
                 arr[i + 1] = temp
-
-
-arr = [7,4,5,2]
-bubble_sort(arr)
-print(arr)
